@@ -1,5 +1,45 @@
-background-image: url (./)
-header img { 
-   display: flex;
-   justify-content: center;
+* {
+    margin: 0px;
+    padding: 0px;
+    font-family: Arial,sans-serif;
+}
+body {
+    background-image: url(../img/333950.jpg);
+    display: flex;
+    justify-content: center;
+}
+main {
+    width: 60%;
+    background-color: rgba(255,255,255,0.5);
+    border: 0.1rem solid black;
+}
+main section article h1 {
+    padding-left: 3%;
+}
+main header img {
+    width: 100%;
+}
+main section article img {
+    border-radius: 50%;
+    width: 40%;
+    margin: 3%;
+}
+main section article {
+    display: flex;
+}
+main section article div {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    margin-top: 5%;
+}
+
+main section article div p {
+    text-align: justify;
+    margin-right: 5%;
+}
+main footer {
+    background-image: url(../img/footer.jpg);
+    height: 200px;
+    background-position: center right;    
 }
